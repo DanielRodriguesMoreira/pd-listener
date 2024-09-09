@@ -21,6 +21,6 @@ export class ContentComponent {
   }
 
   private fetchData() {
-    return this.httpClient.get<string[]>('');
+    return this.httpClient.get<string[]>('http://localhost:8080/clients');
   }
 }
